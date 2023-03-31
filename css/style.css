@@ -131,12 +131,40 @@ img {
 
  /* Versione tablet 768px */
 
- @media screen and (min-width:768px){
+ @media screen and (max-width:768px){
     .container{
         width: auto;
     }
  }
 
- @media screen and (min-width:480px){
+ /* Versione smartphone 480px */
+
+ @media screen and (max-width:480px){
+
+    .container{
+        width: auto;
+    }
+
+    .row{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
     
+   .lessons .col{
+    width: auto;
+   }
+
+   .steps .col{
+    width: auto;
+   }
+
+   
+   .why-us .col-left{
+    width: auto;
+   }
+
+   .why-us .col-right{
+    width: auto;
+   }
  }
