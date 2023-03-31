@@ -127,3 +127,16 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ /* Versione tablet 768px */
+
+ @media screen and (min-width:768px){
+    .container{
+        width: auto;
+    }
+ }
+
+ @media screen and (min-width:480px){
+    
+ }
